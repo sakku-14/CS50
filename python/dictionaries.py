@@ -14,4 +14,4 @@ for pie in pizzas:
 	print(pie)
 
 for pie, price in pizzas.items():
-	print("{0} pizza is {1} dollors.".format(pie, price))
+	print("{} pizza is {} dollors.".format(pie, price))
